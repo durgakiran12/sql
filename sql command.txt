@@ -1,0 +1,54 @@
+create table student215 (rollno number,name varchar2(30),address varchar2(30),email varchar2(30))
+
+insert into student215 values(105,'uday','Hyd','123@gmail.com')
+insert into student215 values(106,'devi','Hyd','123@gmail.com')
+
+
+select * from student215
+
+update student215 set address='hyd' where rollno=103;
+
+
+delete from student215 where rollno=103
+
+drop table student215    (to delete)
+----------------------------------------------------------------------------------------------------------for decimal number(9,2) 9 numbers last2 decimal,-------------------
+
+
+create table bank (accountno number,name varchar2(30),deposite number(9,2),address varchar2(30),balance number(9,2))
+
+
+insert into bank values(606,'kiran','2000','hyd','20000')
+
+select * from bank
+-----------------------------------------------------------------
+
+create table register215 (name varchar2(30),phoneno varchar2(30),email varchar2(30),password varchar2(30))
+
+
+select * from register215
+
+
+drop table register215
+
+--------------------------------------------
+
+create table feedback (name varchar2(30),feed varchar2(30))
+
+
+select * from feedback
+
+-----------------------------------------------
+create table register215 (name varchar2(30),phoneno number,email varchar2(30),password varchar2(30),Gender varchar2(30))
+
+
+select * from register215
+
+drop table register215
+
+------------------------------------------------------------
+create table bed (name varchar2(30),phoneno number,male varchar2(30),female varchar2(30),others varchar2(30),d varchar2(30),general varchar2(30),luxury varchar2(30))
+
+select * from bed
+
+drop table bed
